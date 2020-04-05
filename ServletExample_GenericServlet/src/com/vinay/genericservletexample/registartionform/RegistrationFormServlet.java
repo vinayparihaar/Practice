@@ -55,7 +55,7 @@ public class RegistrationFormServlet extends GenericServlet {
 					connection = null;
 				}
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
+				// TODO Auto-generated catch blocks
 				e.printStackTrace();
 			}
 		}
