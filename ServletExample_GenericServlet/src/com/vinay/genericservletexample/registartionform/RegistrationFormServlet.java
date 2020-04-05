@@ -39,9 +39,9 @@ public class RegistrationFormServlet extends GenericServlet {
 			preparedStatement.setString(6, address);
 			int recordsInserted = preparedStatement.executeUpdate();
 			if (recordsInserted != 0) {
-				printWriter.print(recordsInserted + " record Inserted.Registration Successful!! ;)");
+				printWriter.print(recordsInserted + " record Inserted.Registration Successful!!!!! ;)");
 			} else
-				printWriter.print(recordsInserted + " record Inserted.Registration Failed!! ;(");
+				printWriter.print(recordsInserted + " record Inserted.Registration Failed!! ;(!!!!");
 		} catch (ClassNotFoundException cnf) {
 			cnf.printStackTrace();
 		} catch (SQLException se) {
