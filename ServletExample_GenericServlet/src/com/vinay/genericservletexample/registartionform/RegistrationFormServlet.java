@@ -62,15 +62,17 @@ public class RegistrationFormServlet extends GenericServlet {
 
 	}
 
-	@Override
-	public boolean equals(Object obj) {
-		// TODO Auto-generated method stub
-		return super.equals(obj);
-	}
+	
 	@Override
 	public void destroy() {
 		// TODO Auto-generated method stub
 		super.destroy();
+	}
+	
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		super.finalize();
 	}
 	
 }
