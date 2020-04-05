@@ -75,4 +75,10 @@ public class RegistrationFormServlet extends GenericServlet {
 		super.finalize();
 	}
 	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+	
 }
