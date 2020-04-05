@@ -77,11 +77,6 @@ public class RegistrationFormServlet extends GenericServlet {
 	}
 	
 
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
-	}
 	
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
