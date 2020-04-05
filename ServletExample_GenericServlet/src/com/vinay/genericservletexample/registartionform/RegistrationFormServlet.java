@@ -8,6 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import javax.servlet.GenericServlet;
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -76,7 +77,11 @@ public class RegistrationFormServlet extends GenericServlet {
 	}
 	
 
-	
+	@Override
+	public ServletConfig getServletConfig() {
+		// TODO Auto-generated method stub
+		return super.getServletConfig();
+	}
 	
 	
 }
